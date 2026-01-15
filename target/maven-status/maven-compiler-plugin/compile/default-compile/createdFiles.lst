@@ -1,14 +1,4 @@
-com\shopping\model\Cart.class
+com\shopping\web\LogoutServlet.class
 com\shopping\dao\DBConnection.class
 com\shopping\model\Product.class
-com\shopping\web\CheckOutServlet.class
-com\shopping\web\UserServlet.class
-com\shopping\web\QuantityIncDecServlet.class
-com\shopping\web\LogoutServlet.class
-com\shopping\web\AddToCartServlet.class
-com\shopping\dao\OrderDao.class
-com\shopping\dao\ProductDao.class
-com\shopping\model\User.class
 com\shopping\model\Order.class
-com\shopping\web\LoginServlet.class
-com\shopping\web\RemoveFromCartServlet.class
