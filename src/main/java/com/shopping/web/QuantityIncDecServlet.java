@@ -1,5 +1,5 @@
-package com.shopping.web;
 
+package com.shopping.web;
 public class QuantityIncDecServlet {
     package com.shopping.web;
 
@@ -28,8 +28,8 @@ public class QuantityIncDecServlet extends HttpServlet {
 			String action = request.getParameter("action");
 			int id = Integer.parseInt(request.getParameter("id"));
 			
-			// 1. Get the cart list from Session (Make sure to use "cart_list")
 			ArrayList<Cart> cart_list = (ArrayList<Cart>) request.getSession().getAttribute("cart_list");
+			
 
 			if (action != null && id >= 1) {
 				if (action.equals("inc")) {
@@ -66,3 +66,4 @@ public class QuantityIncDecServlet extends HttpServlet {
 	}
 }
 }
+
