@@ -11,7 +11,10 @@ public class DBConnection {
     // 2. Database Username (Default is usually 'root')
     private static final String USER = "root"; 
     
-    // 3. Database Password (CHANGE THIS to your MySQL password)
+    // -------------------------------------------------------------------------
+    // ⚠️ TEAM MEMBERS: CHANGE THE PASSWORD BELOW TO YOUR OWN MYSQL PASSWORD ⚠️
+    // If your password is "1234", change "hash1" to "1234"
+    // -------------------------------------------------------------------------
     private static final String PASSWORD = "hash1"; 
 
     public static Connection getConnection() {
@@ -27,6 +30,7 @@ public class DBConnection {
             e.printStackTrace();
         } catch (SQLException e) {
             System.out.println("Error: Could not connect to the database.");
+            System.out.println("Check your DB URL, Username, or Password in DBConnection.java");
             e.printStackTrace();
         }
         return connection;
