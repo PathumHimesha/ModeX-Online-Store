@@ -15,7 +15,7 @@ public class DBConnection {
     // ⚠️ TEAM MEMBERS: CHANGE THE PASSWORD BELOW TO YOUR OWN MYSQL PASSWORD ⚠️
     // If your password is "1234", change "hash1" to "1234"
     // -------------------------------------------------------------------------
-    private static final String PASSWORD = "hash1"; 
+    private static final String PASSWORD = "12345"; 
 
     public static Connection getConnection() {
         Connection connection = null;
